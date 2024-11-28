@@ -22,7 +22,6 @@ function App() {
       <CounterButton
         label="감소"
         func={() => setCount(count - 1)}
-        style={{ marginLeft: "10px" }}
       />
 
     </>
