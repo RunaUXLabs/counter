@@ -4,13 +4,18 @@ import './App.css';
 
 function App() {
   const [count, setCount] = useState(0);
+  // useState 훅을 가져와 초기값 0으로 설정한 다음에 구조분해할당
+  // count와 setCount()로 분리함
 
   return (
     <>
       <h1>Counter</h1>
       <p>{count}</p>
+      {/* 자식이 부모로부터 props로 값을 전달받음 */}
+
       <button onClick={() => setCount(count + 1)}> 증가 </button>
       <button onClick={() => setCount(count - 1)}> 감소 </button>
+      {/* 버튼을 클릭하면 부모의 setCount()실행시킴 => 해당함수가 부모의 상태값을 바꿈 */}
     </>
   );
 }
