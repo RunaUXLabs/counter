@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <h1>Counter</h1>
+      <h1>초심플 카운터</h1>
       <p>{count}</p>
       {/* 자식이 부모로부터 props로 값을 전달받음 */}
 

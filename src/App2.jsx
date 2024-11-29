@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <h1>Counter</h1>
+      <h1>컴포넌트 분리 된<br />초심플 카운터</h1>
       {/* 숫자 표시 컴포넌트 삽입 */}
       <CounterDisplay count={count} />
 
@@ -23,7 +23,6 @@ function App() {
         label="감소"
         func={() => setCount(count - 1)}
       />
-
     </>
   );
 }
