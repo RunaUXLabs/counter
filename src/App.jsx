@@ -6,6 +6,9 @@ function App() {
   const [count, setCount] = useState(0);
   // useState 훅을 가져와 초기값 0으로 설정한 다음에 구조분해할당
   // count와 setCount()로 분리함
+  console.log(useState(0));
+  console.log(count);
+
 
   return (
     <>
